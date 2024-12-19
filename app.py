@@ -7,7 +7,7 @@ df_car = pd.read_csv('vehicles_us.csv')  # leer los datos
 st.header("CAMBIA ESTO DESPUÉS.")  # creación de título
 
 # creación del botón para activar la creación del histograma
-hist_button = st.button("Hacer histograma")
+hist_button = st.checkbox("Hacer histograma")
 
 if hist_button:  # verdadero cuando se haga clic
     # escribir un mensaje de activación
@@ -19,9 +19,9 @@ if hist_button:  # verdadero cuando se haga clic
     # mostrar gráfico
     st.plotly_chart(fig, use_container_width=True)
 
-
 # creación del botón para activar la creación del gráfico de disperción
-scatter_button = st.button("Hacer gráfico de disperción")
+scatter_button = st.checkbox("Hacer gráfico de disperción")
+
 
 if scatter_button:  # verdadero cuando se haga clic
     # escribir un mensaje de activación
