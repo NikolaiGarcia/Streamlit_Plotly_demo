@@ -18,3 +18,18 @@ if hist_button:  # verdadero cuando se haga clic
 
     # mostrar gráfico
     st.plotly_chart(fig, use_container_width=True)
+
+
+# creación del botón para activar la creación del gráfico de disperción
+scatter_button = st.button("Hacer gráfico de disperción")
+
+if scatter_button:  # verdadero cuando se haga clic
+    # escribir un mensaje de activación
+    st.write(
+        "Creando un gráfico de disperción para los datos de venta de coches . . .")
+
+    # creación del histograma
+    fig = px.scatter(df_car, x='odometer', y='price')
+
+    # mostrar gráfico
+    st.plotly_chart(fig, use_container_width=True)
