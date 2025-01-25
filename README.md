@@ -6,7 +6,7 @@ Hasta ahorita sólo hace 2 gráficos: histograma y de disperción. Usa como ejem
 ## Instrucciones
 
 ### Si quieres ejecutarlo en tu equipo:
-- clona el repositorio usando `git clone https://github.com/NikolaiGarcia/Proyecto_7.git` en una carpeta en donde quieras descargar el directorio
+- clona el repositorio usando `git clone https://github.com/NikolaiGarcia/Streamlit_Plotly_demo.git` en una carpeta en donde quieras descargar el directorio
 - tienes que tener instalado python y pip
 - de preferencia crea un ambiente virtual con las librerías especificadas en `requirements.txt`:
     - `python -m venv my_env`
